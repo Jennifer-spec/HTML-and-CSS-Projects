@@ -1,71 +1,159 @@
 <!DOCTYPE html>
 <html lang="eng">
-<head>
-	<title>Animals</title>
-	<meta charset = "utf-8">
-</head>
-	
-<body>
-<h1>ELKS</h1>
-<img src="nature picture 01.jpg" alt="Image of nature" width="500" height="100" style="vertical-align:top;margin:50px 0px">
-<!-- Nav -->
-	<div>
-		<div>
-			<ul>
-				<a href="#home" id="link"><li>Home</li></a>
-				<a href="#gallery"><li>Gallory</li></a>
-				<a href="#contact"><li>Contact</li></a>
+	<head>
+		<title>Animals</title>
+		<meta charset = "utf-8">
+		<link rel="stylesheet" href="./css/one_page_website.css">
+	</head>
+
+	<body>
+	<!-- Nav -->
+	<div class="wrap">
+		<div class="menu-container">
+			<ul class="menu">
+				<a href="#home"><li>HOME</li></a>
+				<a href="#gallery"><li>GALLERY</li></a>
+				<a href="#contact"><li>CONTACT</li></a>
 			</ul>
 		</div>
 	</div>
 	<!-- end Nav -->
+
 	<!--Home-->
-	
 	<div id="home">
-		<div>
-			<div>
-				<h1>This is home page</h1>
+		<div class="container">
+			<div class="text-center">
+				<span class="head-main">Watching beautiful ELKS</span>
 			</div>
 		</div>
 	</div>
 	<!-- End Home-->
-	
+		
 	<!-- Gallery -->
-	<div id="gallery">
-		<h1>Gallery</h1>
-		<section>
-			<h2> elks</h2>
-			<p> I like <span style="color: green;font-weight: bold">elks</span>. 
-			But I've never have a chance to play with them.This video is from my friend.</p>
-			<iframe src="animal.mp4" height="200" width="300"></iframe>
-	
-		</section>	
-<!--		
-		<section>
-			<h1> Dogs</h1>
-			<p> I don't like dog because they always bark to me.</p>
-		</section>
-		-->
-	</div>
+	<section id="gallery">	
+		<div class="container">
+			<h1>Gallery</h1>
+			<div class="flex-container">
+			
+				<!--  photo container 1-->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/elk_01.jpg" alt="">
+						<div class="photo-overlay">
+							<h3>Click to Enlarge</h3>
+							<p>We have several space launches departing daily,look youre flight today.</p>
+						</div>
+					</div>
+				</div>
+				<!-- end of photo container 1-->
+
+				<!--  photo container 2-->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/elk_02.jpg" alt="">
+						<div class="photo-overlay">
+							<h3>Click to Enlarge</h3>
+							<p>We have several space launches departing daily,look youre flight today.</p>
+						</div>
+					</div>
+				</div>
+				<!-- end of photo container 2-->
+
+				<!--  photo container 3-->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/elk_03.jpg" alt="">
+						<div class="photo-overlay">
+							<h3>Click to Enlarge</h3>
+							<p>We have several space launches departing daily,look youre flight today.</p>
+						</div>
+					</div>
+				</div>
+				<!-- end of photo container 3-->
+
+				<!--  photo container 4-->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/elk_04.jpg" alt="">
+						<div class="photo-overlay">
+							<h3>Click to Enlarge</h3>
+							<p>We have several space launches departing daily,look youre flight today.</p>
+						</div>
+					</div>
+				</div>
+				<!-- end of photo container 4-->
+
+				<!--  photo container 5-->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/elk_05.jpg" alt="">
+						<div class="photo-overlay">
+							<h3>Click to Enlarge</h3>
+							<p>We have several space launches departing daily,look youre flight today.</p>
+						</div>
+					</div>
+				</div>
+				<!-- end of photo container 5-->
+				<!--  photo container 6-->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/elk_06.jpg" alt="">
+						<div class="photo-overlay">
+							<h3>Click to Enlarge</h3>
+							<p>We have several space launches departing daily,look youre flight today.</p>
+						</div>
+					</div>
+				</div>
+				<!-- end of photo container 6-->		
+			</div>
+		</div>
+	</section>	
 	<!-- end Gallery -->
-	<!-- contact -->
-	<div id="contact">
-		<h1> Contact with us</h1>
-		<form action="" method="post">
-			First name: <input type="text" name="First_Name"><br>
-			Last name: <input type="text" name="Last_Name"><br>
-			Email: <input type="email" name="Email"><br>
-			Phone number: <input type="text" name="phone_num"><br>
-			<input type="submit" value="Submit">
-		</form>
-	</div>
-	<!-- end contact -->
 	
+	<section>
+		<h2> Elk's video</h2>
+		<iframe src="./images/animal.mp4" height="200" width="300"></iframe>
+
+	</section>	
+	
+	<!-- contact -->
+	<section id="contact">
+		<div class="container">
+			<div class="heading-padding">
+				<h1 class="heading-padding">Contact</h1>
+				
+				<div class="reservation">
+					<h2>
+						<span>Your adventure is just around BC Canada.</span>
+						<br>Reserve your trip today! 
+					</h2>
+					<p class="rsvp-text">
+						Please provide us with your basic contact information.
+					</p>
+					<div class="form-rsvp">
+						<form action="" method="post">
+							<input class="rsvp" type="text" value="" placeholder="First Name">
+							<input class="rsvp" type="text" value="" placeholder="Last Name">
+							<input class="rsvp" type="text" value="" placeholder="Email Address">
+							<input class="rsvp" type="text" value="" placeholder="Phone number">
+							<div class="form-spacer">
+								<label class="terms"> Terms and Conditions</label>
+							</div>
+							<div class="submit">
+								<input type="submit" value="submit">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end of contact-->
+		
 	<!--footer-->
 	<div id="footer">
 		www.theelks.space &nbsp;| &nbsp; &copy 2018
 	</div>
 	<!-- end of footer -->		
-
-</body>
+	</body>
 </html>
