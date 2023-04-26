@@ -1,0 +1,97 @@
+.navbar {
+    
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background-color: aquamarine;
+    color: brown;
+}
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+}
+
+.row {
+    display: flex;
+}
+.column {
+  
+    padding: 10px;
+
+    height: 100px;
+    color: blueviolet;
+}
+
+.p-hover:hover {
+    color: aquamarine;
+}
+/*-------------------------------
+------------------------------*/
+.container-5-8 {
+    position: relative;
+    width: 50%;
+}
+
+
+.image-5-8 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.overlay-5-8 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: aqua;
+}
+
+
+
+.container-5-8:hover .overlay-5-8 {
+    opacity: 1;
+}
+
+
+.text-5-8 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.container-5-10 {
+    
+    position: relative;
+    text-align: left;
+    color: peru;
+}
+
+.text-5-10 {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
